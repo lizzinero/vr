@@ -102,3 +102,163 @@
     width: 783px;
     height: 724px;
 }
+
+/* another-page */
+.main-possibility {
+    display: grid;
+    grid-template-rows: repeat(4, minmax(min-content, max-content));
+    grid-template-columns: repeat(3, minmax(min-content, max-content));
+}
+.main-possibility__title {
+    grid-row: 1 / 2;
+    grid-column: 1 / 3;
+    color: rgb(0, 0, 0);
+    font-family: Intro;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.WithoutWires {
+    grid-row: 2 / 3;
+}
+.WithoutWires__image {
+    width: 365px;
+    height: 270px;
+}
+.WithoutWires__title {
+    width: 365px;
+    height: 36px;
+    color: rgb(0, 0, 0);
+    font-family: Intro ;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 120%;
+}
+.WithoutWires__text {
+    width: 365px;
+    height: 128px;
+    color: rgb(0, 0, 0);
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 160%;
+}
+
+.WithoutAcomputer {
+    grid-row: 2 / 3;
+}
+.WithoutAcomputer__image {
+    width: 365px;
+    height: 278px;
+}
+.WithoutAcomputer__title {
+    width: 365px;
+    height: 36px;
+    color: rgb(0, 0, 0);
+    font-family: Intro ;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 120%;
+}
+.WithoutAcomputer__text {
+    width: 365px;
+    height: 160px;
+    color: rgb(0, 0, 0);
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 160%;
+}
+
+.UpToTenHours {
+    grid-row: 2 / 3;
+}
+.UpToTenHours__image {
+    width: 365px;
+    height: 270px;
+}
+.UpToTenHours__title {
+    width: 365px;
+    height: 36px;
+    color: rgb(0, 0, 0);
+    font-family: Intro ;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 120%;
+}
+.UpToTenHours__text {
+    width: 365px;
+    height: 160px;
+    color: rgb(0, 0, 0);
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 160%;
+}
+
+.HundredsOfGames {
+    grid-row: 3 / 4;
+}
+.HundredsOfGames__title {
+    width: 365px;
+    height: 36px;
+    color: rgb(0, 0, 0);
+    font-family: Intro ;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 120%;
+}
+.HundredsOfGames__text {
+    width: 365px;
+    height: 160px;
+    color: rgb(0, 0, 0);
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 160%;
+}
+
+.AlmostForNothing {
+    grid-row: 3 / 4;
+}
+.AlmostForNothing__title {
+    width: 365px;
+    height: 36px;
+    color: rgb(0, 0, 0);
+    font-family: Intro ;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 120%;
+}
+.AlmostForNothing__text {
+    width: 365px;
+    height: 128px;
+    color: rgb(0, 0, 0);
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 160%;
+}
+
+.subscribe {
+    grid-row: 3 / 4;
+}
+.subscribe__title {
+}
+.subscribe__input {
+}
+.subscribe__button {
+}
+.subscribe__button-image {
+}
+
+.menu-possibility {
+    grid-row: 4 / 5;
+}
+.menu-possibility__list {
+}
+.menu-possibility__item {
+}
+.menu-possibility__link {
+}

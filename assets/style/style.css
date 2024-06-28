@@ -72,20 +72,24 @@
 }
 
 .menu {
-    margin-left: 86px;
+    margin-left: 126px;
     grid-row: 4 / 5;
     grid-column: 1 / 2;
+    color: rgb(0, 0, 0);
 }
 .menu__list {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    padding: 0px;
+}
+.menu__list_violet {
+    color: rgb(82, 34, 208);
 }
 .menu__item {
     display: inline-block;
 }
 .menu__link {
-    color: rgb(82, 34, 208);
     font-family: Roboto Slab;
     font-size: 20px;
     font-weight: 300;
@@ -108,6 +112,7 @@
     display: grid;
     grid-template-rows: repeat(4, minmax(min-content, max-content));
     grid-template-columns: repeat(3, minmax(min-content, max-content));
+    justify-content: space-evenly;
 }
 .main-possibility__title {
     grid-row: 1 / 2;
@@ -119,146 +124,90 @@
     line-height: 120%;
 }
 
-.WithoutWires {
-    grid-row: 2 / 3;
+.menu_black {
+    margin-top: 110px;
+    margin-left: 0px;
+    justify-self: flex-start;
+    grid-column: 1 / 3;
 }
-.WithoutWires__image {
-    width: 365px;
-    height: 270px;
-}
-.WithoutWires__title {
-    width: 365px;
-    height: 36px;
+
+.box__title {
+    margin-top: 20px;
+    margin-bottom: 10px;
     color: rgb(0, 0, 0);
     font-family: Intro ;
     font-size: 30px;
     font-weight: 400;
     line-height: 120%;
 }
-.WithoutWires__text {
+.box__text {
+    margin-top: auto;
     width: 365px;
-    height: 128px;
     color: rgb(0, 0, 0);
     font-family: Roboto Slab;
     font-size: 20px;
     font-weight: 300;
     line-height: 160%;
 }
-
-.WithoutAcomputer {
+.box_WithoutWires {
     grid-row: 2 / 3;
+    grid-column: 1 / 2;
 }
-.WithoutAcomputer__image {
-    width: 365px;
-    height: 278px;
-}
-.WithoutAcomputer__title {
-    width: 365px;
-    height: 36px;
-    color: rgb(0, 0, 0);
-    font-family: Intro ;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 120%;
-}
-.WithoutAcomputer__text {
-    width: 365px;
-    height: 160px;
-    color: rgb(0, 0, 0);
-    font-family: Roboto Slab;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 160%;
-}
-
-.UpToTenHours {
+.box_WithoutAcomputer {
     grid-row: 2 / 3;
+    grid-column: 2 / 3;
 }
-.UpToTenHours__image {
-    width: 365px;
-    height: 270px;
+.box_UpToTenHours {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
 }
-.UpToTenHours__title {
-    width: 365px;
-    height: 36px;
-    color: rgb(0, 0, 0);
-    font-family: Intro ;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 120%;
-}
-.UpToTenHours__text {
-    width: 365px;
-    height: 160px;
-    color: rgb(0, 0, 0);
-    font-family: Roboto Slab;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 160%;
-}
-
-.HundredsOfGames {
+.box_HundredsOfGames {
     grid-row: 3 / 4;
+    grid-column: 1 / 2;
 }
-.HundredsOfGames__title {
-    width: 365px;
-    height: 36px;
-    color: rgb(0, 0, 0);
-    font-family: Intro ;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 120%;
-}
-.HundredsOfGames__text {
-    width: 365px;
-    height: 160px;
-    color: rgb(0, 0, 0);
-    font-family: Roboto Slab;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 160%;
+.box_AlmostForNothing {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
 }
 
-.AlmostForNothing {
-    grid-row: 3 / 4;
-}
-.AlmostForNothing__title {
-    width: 365px;
-    height: 36px;
-    color: rgb(0, 0, 0);
-    font-family: Intro ;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 120%;
-}
-.AlmostForNothing__text {
-    width: 365px;
-    height: 128px;
-    color: rgb(0, 0, 0);
-    font-family: Roboto Slab;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 160%;
-}
 
 .subscribe {
     grid-row: 3 / 4;
+    grid-column: 3 / 4;
+    width: 365px;
+    padding: 20px;
+    background: rgb(236, 97, 91);
 }
 .subscribe__title {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+    font-family: Intro;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 120%;
 }
 .subscribe__input {
+    margin-bottom: 23px;
+    width: 323px;
+    height: 50px;
+    padding: 0;
+    padding-left: 14px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-weight: 300;
+
 }
 .subscribe__button {
-}
-.subscribe__button-image {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
 }
 
-.menu-possibility {
-    grid-row: 4 / 5;
-}
-.menu-possibility__list {
-}
-.menu-possibility__item {
-}
-.menu-possibility__link {
+.menu__link_black {
+    color: rgb(0, 0, 0);
+    margin-right: 45px;
 }
